@@ -1,0 +1,7 @@
+1. OOP is a programming paradigm centered around OBJECTS rather than FUNCTIONS.
+2. 4 pillars of OOP: Encapsulation, Abstraction, Inheritance, Polymorphism
+3. In OOP, we group related functions and variables into objects. This is ENCAPSULATION. It reduces complexity and increases reusability.
+4. Abstraction : .Simpler Interface .Reduce the Impact of Change
+5. Inheritance is a mechanism to reduce redundancy in code.
+6. Polymorphism is a technique to reduce the if-else and switch case statements in the code.
+7. If an object has more than 1 method, it is said to have a behaviour.
