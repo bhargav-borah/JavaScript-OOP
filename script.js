@@ -37,3 +37,24 @@ function Circle(radius) { // By convention, constructor functions' names begin w
 
 const circle3 = new Circle(1);
 circle1.draw();
+
+const circle4 = new Circle(10);
+
+circle4.location = { x: 1 };
+circle4['location'] = { x: 1 };
+
+delete circle4.location; // delete circle4['location']
+
+// Enumerating Properties
+for(let key in circle4 ) {
+    if (typeof circle[key] !== 'function'){
+        console.log(key, circle[key]);
+    }
+}
+
+// Another method to enumerate properties 
+const keys = Object.keys(circle4);
+console.log(keys);
+
+if ('radius' in circle4)
+    console.log('circle 4 has a radius');
